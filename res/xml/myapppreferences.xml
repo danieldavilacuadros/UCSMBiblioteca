@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Estudios">
+        <CheckBoxPreference
+            android:title="Estudiante"
+            android:defaultValue="false"
+            android:summary="UCSM"
+            android:key="checkboxPref" />
+    </PreferenceCategory>
+	<PreferenceCategory android:title="Datos personales">
+        <EditTextPreference
+            android:summary="Ingrese sus datos"
+            android:title="Nombre"
+            android:defaultValue="Nombre"
+            android:key="editTextPref" />
+        <EditTextPreference
+            android:summary="Ingrese sus datos"
+            android:title="Codigo"
+            android:defaultValue="Codigo"
+            android:key="editTextPref" />
+        <RingtonePreference
+            android:summary="Seleccione Tono de notifocacion"
+            android:title="Tono"
+            android:key="ringtonePref" />
+        <PreferenceScreen
+            android:title="SeleccioSegunda pantalla de preferencias"
+            android:summary="Click aqui para ir a la segunda pantallade preferencias"
+            android:key="secondPrefScreenPref" >
+            <EditTextPreference
+                    android:summary="Ingrese una cadena"
+           			android:title="Edit Text(segunda pantalla)"
+            		android:key="secondEditTextPref" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+</PreferenceScreen>

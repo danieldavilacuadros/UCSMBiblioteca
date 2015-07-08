@@ -1,0 +1,87 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.ucsmbiblioteca.MenuPrincipal" >
+
+    <Button
+        android:id="@+id/btnPrestamos"
+        style="@style/styleName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btnlibro"
+        android:onClick="onClickPrestamos"
+        android:text="Prestamo de Libros" />
+
+    <Button
+        android:id="@+id/btnContacto"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:background="@drawable/btncontacto"
+        android:minHeight="55dip"
+        android:onClick="onClickContacto"
+        android:text="Contactanos" />
+
+    <Button
+        android:id="@+id/btnAcerca"
+        style="@style/styleName"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:background="@drawable/btnmultimedia"
+        android:minHeight="55dip"
+        android:onClick="onClickAcerca"
+        android:text="Acerca de la UCSM" />
+
+    <Button
+        android:id="@+id/btnNotas"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:background="@drawable/btnnote"
+        android:minHeight="55dip"
+        android:onClick="onClickNotas"
+        android:text="Crea una Nota de Recordatorio" />
+
+    <Button
+        android:id="@+id/btnUbicanos"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:background="@drawable/btnubi"
+        android:minHeight="55dip"
+        android:onClick="onClickUbicanos"
+        android:text="Ubicanos" />
+
+    <Button
+        android:id="@+id/btnConfiguracion"
+        style="@style/styleName"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:background="@drawable/btnconfiguracion"
+        android:minHeight="55dip"
+        android:onClick="onClickConfiguracion"
+        android:text="Configuracion" />
+
+    <Button
+        android:id="@+id/btnBusqueda"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/btnlupa"
+        android:minHeight="55dip"
+        android:onClick="onClickBusqueda"
+        android:text="Busca tus Libros" />
+
+    <Button
+        android:id="@+id/btnFecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/fecha"
+        android:minHeight="55dip"
+        android:onClick="onClickFecha"
+        android:text="Fecha de Devolucion" />
+
+</LinearLayout>
